@@ -408,8 +408,8 @@ ol {
   .pictures-portfolio{
     position: relative;
     overflow: hidden;}
-  .portfolio-img:hover  {
-      transform: translatey(0);}
+  .portfolio-img:hover.textport {
+      transform: translateY(0);}
   
   .textport{
     position: absolute;
