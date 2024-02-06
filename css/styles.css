@@ -407,8 +407,10 @@ ol {
   }
   .pictures-portfolio{
     position: relative;
-    overflow: hidden;
-  }
+    overflow: hidden;}
+  .portfolio-img:hover  {
+      transform: translatey(0);}
+  
   .textport{
     position: absolute;
     top: 0;
@@ -424,4 +426,5 @@ ol {
     transition: transform 250ms ease-in-out;
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
+
   
